@@ -101,6 +101,8 @@ def play_again():
         if play_again_game == 'n':
             print("Have nice day")
             break
+        else:
+            display_board(board)
 
 
 play_again()
